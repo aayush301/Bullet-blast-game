@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#1a69d1">
+	<title>Bullet Blast</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header><h1>Bullet Blast</h1></header>
+	
+	<div id="instructions-box">
+		<div id="instructions">
+			<p>Use left/right arrow keys to move</p>
+			<p>Use space key or up arrow key to shoot bullet</p>
+		</div>
+		<button class="btn start-game">Play Game</button>
+	</div>
+	
+	<div id="game-wrapper" class="hide">
+		<div id="btn-group">
+			<button class="btn home">Home</button>
+			<button class="btn" id="pause-resume">Pause</button>
+		</div>
+		<canvas></canvas>
+	</div>
+	
+	<div id="result-box" class="hide">
+		<div id="score"></div>
+		<button class="btn start-game">Play again</button>
+		<button class="btn home">Home</button>
+	</div>
+	
+	
+	
+	<!-- ---- Scripts ---- -->
+	<script src="JS/utils/enemy.js"></script>
+	<script src="JS/utils/enemyBullet.js"></script>
+	<script src="JS/utils/gameCanvas.js"></script>
+	<script src="JS/utils/gameSound.js"></script>
+	<script src="JS/utils/player.js"></script>
+	<script src="JS/utils/playerBullet.js"></script>
+	<script src="JS/utils/score.js"></script>
+	
+	<script src="JS/init/mainGame.js"></script>
+	<script src="JS/init/gameInit.js"></script>
+	<script src="JS/init/loader.js"></script>
+	
+</body>
+</html>

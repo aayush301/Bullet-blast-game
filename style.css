@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fresca', sans-serif;
+}
+
+body
+{
+	background-color: #333;
+}
+
+header
+{
+	padding: 15px;
+	background-color: #1a69d1;
+	color: white;
+	text-align: center;
+	height: 60px;
+}
+
+canvas
+{
+	display: block;
+	border: 5px solid black;
+	width: 100vw;
+	max-width: 1000px;
+	height: 500px;
+	margin: auto;
+	background-color: #222;
+}
+
+
+.btn
+{
+	background-color: #1a69d1;
+	color: white;
+	border: none;
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin: 15px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.btn:hover
+{
+	transform: scale(1.2);
+}
+
+
+#btn-group
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#instructions-box,
+#result-box
+{
+	background-color: white;
+	border-radius: 2px;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 150px;
+	width: 600px;
+	font-size: 20px;
+}
+
+
+.hide
+{
+	display: none !important;
+}
