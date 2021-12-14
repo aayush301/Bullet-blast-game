@@ -12,3 +12,5 @@ Enjoy bullet blast game by evading bullet blasts of enemies and shooting bullets
 - The game can be left and restarted at any time in between the game.
 - The game has score feature as well.
 
+## Game play
+The game can be played directly on the link: https://aayush301.github.io/Bullet-blast-game/
